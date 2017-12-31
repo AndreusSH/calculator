@@ -1,0 +1,48 @@
+<html>
+
+ <head>
+<link rel="stylesheet" type="text/css" href="calculator.css">
+</head> 
+
+
+  <body>
+    <div id = 'output'></div>
+     
+     <table>
+       
+  <tr>
+    <td><button class = 'buttons' onclick= 'myFunction("7")'value='7'>7</button></td>
+    <td><button class = 'buttons' onclick= 'myFunction("8")'value='8'>8</button></td>
+    <td><button class = 'buttons' onclick= 'myFunction("9")'value='9'>9</button></td>
+    <td><button  class = 'buttons' onclick= 'myFunction("C")' value='C'>C</button></td>
+  </tr>
+  <tr>
+    <td><button class = 'buttons' onclick= 'myFunction("4")'value='4'>4</button></td>
+    <td><button class = 'buttons' onclick= 'myFunction("5")'value='5'>5</button></td>
+    <td><button class = 'buttons' onclick= 'myFunction("6")'value='6'>6</button></td>
+    <td><button class = 'buttons' class = 'buttons' onclick= 'myOps("/")'>/</button></td>
+  </tr>
+  <tr>
+    <td><button class = 'buttons' onclick= 'myFunction("1")' value='1'>1</button></td>
+    <td><button class = 'buttons' onclick= 'myFunction("2")' value='2'>2</button></td>
+    <td><button class = 'buttons' onclick= 'myFunction("3")'value='3'>3</button></td>
+     <td><button class = 'buttons' onclick= 'myOps("*")' value='*'>*</button></td>
+  </tr>
+       <tr>
+       
+    <td><button class = 'buttons' onclick= 'myFunction("0")' id ='keys' value = '0'>0</button></td>
+    <td><button class = 'buttons' onclick= 'myFunction(".")' value='.'>.</button></td>
+    <td><button class = 'buttons' onclick= 'myOps("-")' value='-'>-</button></td>
+   <td><button class = 'buttons' onclick= 'myOps("+")'value='+'>+</button></td>
+   
+  </tr>
+   
+ 
+    
+</table> 
+    <button id = 'equal' onclick = 'evFunction()'>=</button>  
+    
+    <script src = calculator.js></script>
+          
+  </body>
+</html>
